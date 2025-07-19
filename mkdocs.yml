@@ -1,6 +1,15 @@
 site_name: My site
 theme: 
   name: material
+  features:
+    - navigation.tabs
 plugins:
   - search
-  - blog
+
+nav:
+  
+  - 高考:
+    - "Gaokao/index.md"
+    - 语文: 
+      - "Gaokao/Chinese/essay.md"
+
