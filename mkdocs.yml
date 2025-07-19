@@ -1,3 +1,6 @@
 site_name: My site
 theme: 
   name: material
+plugins:
+  - search
+  - blog
