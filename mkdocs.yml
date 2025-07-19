@@ -7,7 +7,8 @@ plugins:
   - search
 
 nav:
-  
+  - 主页:
+    - "index.md"
   - 高考:
     - "Gaokao/index.md"
     - 语文: 
