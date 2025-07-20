@@ -16,16 +16,14 @@ nav:
       - "Gaokao/Chinese/essay.md"
     - 数学:
       - 概率统计:
-        - 马尔可夫链: "Gaokao/Math/PS/Markov chain.md"
+        - 马尔可夫链: "Gaokao/Math/PS/Markov_chain.md"
+        - 概率递推: "Gaokao/Math/PS/Recursion.md"
 
 markdown_extensions:
   - pymdownx.arithmatex:
       generic: true
 
 extra_javascript:
-  - javascripts/katex.js
-  - https://unpkg.com/katex@0/dist/katex.min.js
-  - https://unpkg.com/katex@0/dist/contrib/auto-render.min.js
-
-extra_css:
+  - javascripts/mathjax.js
+  - https://unpkg.com/mathjax@3/es5/tex-mml-chtml.js
   - https://unpkg.com/katex@0/dist/katex.min.css
