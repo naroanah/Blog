@@ -3,6 +3,7 @@ theme:
   name: material
   features:
     - navigation.tabs
+    - navigation.indexes
 plugins:
   - search
 
@@ -13,4 +14,7 @@ nav:
     - "Gaokao/index.md"
     - 语文: 
       - "Gaokao/Chinese/essay.md"
+    - 数学:
+      - 概率统计:
+        - 马尔可夫链: "Gaokao/Math/PS/Markov chain.md"
 
