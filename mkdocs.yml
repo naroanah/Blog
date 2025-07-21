@@ -18,6 +18,7 @@ nav:
       - 概率统计:
         - 马尔可夫链: "Gaokao/Math/PS/Markov_chain.md"
         - 概率递推: "Gaokao/Math/PS/Recursion.md"
+        - 调整法: "Gaokao/Math/PS/Adjustment_method.md"
 
 markdown_extensions:
   - pymdownx.arithmatex:
